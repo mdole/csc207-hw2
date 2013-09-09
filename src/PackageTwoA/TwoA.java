@@ -82,4 +82,18 @@ public class TwoA {
 	}
 	return true;
     }
+    public static void reverseInts(int [] ints) {
+	for (int i = 0; i < (ints.length/2); i++)
+	{
+	    int temp = ints[(ints.length-i - 1)];
+	    int temp2 = ints[i];
+	    ints[i] = temp;
+	    ints[(ints.length-i - 1)] = temp2;
+	}
+    }
+    public static void printIntArray(int [] ints) {
+	for (int i = 0; i < ints.length; i++) {
+	    System.out.println(ints[i]);
+	}
+    } //Written to ensure correctness of the reverseInts with a visual representation
 }
