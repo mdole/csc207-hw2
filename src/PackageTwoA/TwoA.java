@@ -1,3 +1,16 @@
+/**
+ * Citations:
+ * We spoke with Sam regarding part B on 9/9
+ * 
+ * Information regarding assertArrayEquals:
+ * Anonymous. Assert (JUnit API). 
+ * http://junit.sourceforge.net/javadoc/org/junit/Assert.html
+ * Visited 9/9/2013
+ * 
+ * Weiss, Mark A. Data structures and imperative problem solving using java 4th ed, p. 7-12
+ * Published 2010
+ */
+
 package PackageTwoA;
 
 public class TwoA {
